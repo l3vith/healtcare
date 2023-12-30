@@ -1,0 +1,131 @@
+body{
+  background: #b5b9b9;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  display: flex;
+  width: 98.5%;
+  justify-content: space-between;
+  margin-top: 20px;
+  z-index: 3;
+  left: 12px;
+
+
+  backdrop-filter: blur(25px) saturate(180%);
+  -webkit-backdrop-filter: blur(25px) saturate(180%);
+  background-color: rgba(64, 65, 65, 0.58);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.down {
+  z-index: 2;
+  height: 80px;
+  width: 80px;
+
+  bottom: 65px;
+
+  position: absolute;
+
+
+  backdrop-filter: blur(25px) saturate(180%);
+  -webkit-backdrop-filter: blur(25px) saturate(180%);
+  background-color: rgba(64, 65, 65, 0.58);
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+
+  color: rgb(255, 255, 255);
+  transition: box-shadow 0.3s ease-in-out;
+
+}
+
+.down:hover {
+  box-shadow: 0 0 20px 7px #31616e;
+}
+
+
+.down-img {
+  width: 70px;
+  height: 70px;
+}
+
+
+
+.container {
+  width: 100%;
+  height: 100vh;
+}
+
+.subcont {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex {
+  margin-top: 20px;
+  display: flex;
+  position: relative;
+  justify-content: first baseline;
+}
+
+
+.logo {
+  padding-left: 10px;
+}
+
+.logotext {
+  position: absolute;
+  margin-left: 65px;
+  margin-top: 28px;
+
+  font-family: "Kanit", sans-serif;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 2px;
+  margin-left: auto;
+}
+
+.button {
+  backdrop-filter: blur(25px) saturate(180%);
+  -webkit-backdrop-filter: blur(25px) saturate(180%);
+  background-color: rgba(81, 95, 95, 0.58);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+
+  height: 50px;
+  margin-top: 5px;
+  width: 90px;
+  color: rgb(255, 255, 255);
+  transition: box-shadow 0.3s ease-in-out;
+  margin-right: 16px;
+}
+
+.button:hover {
+  box-shadow: 0 0 15px 5px #023441;
+}
+
+
+
+
+.page-1-text {
+  font-family: 'Rubik Broken Fax', sans-serif;
+  font-size: 80px;
+  z-index: 2;
+}
+
+.pg1{
+  background: rgb(146, 58, 58);
+}
+
+
+
+
+
+
